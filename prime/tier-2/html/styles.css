@@ -1,0 +1,32 @@
+body {
+    background-color: skyblue;
+}
+p,h1 {
+
+}
+div {
+    display:inline-block;
+}
+
+* {
+    border: 1px orange;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+.item {
+    color: red;
+}
+
+.thing {
+    font-family: 'Rubik Beastly', cursive;;
+}
+
+
+ID 
+Class 
+Element 
+
