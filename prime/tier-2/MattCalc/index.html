@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="jquery-3.6.0.min.js"></script>
+  <script src="client.js"></script>
+  <title>Monthly Salary Calculator</title>
+</head>
+<body>
+  <h1>Adams Monthly Salary Calculator 🦄</h1>
+
+  <!-- <input id="unicorn-input" type="text"> -->
+
+  <input id="first-name" type="text" placeholder="first name">
+  <input id="last-name" type="text" placeholder="last name">
+  <input id="employee-id" type="number" placeholder="employee id">
+  <input id="job-title" type="text" placeholder="job title">
+  <input id="annual-salary" type="number" placeholder="annual salary">
+  <button id="add-employee-button">Submit! 🦄</button>
+
+  <table>
+    <thead>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Employee ID</th>
+        <th>Job Title</th>
+        <th>Annual Salary</th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody id="employee-rows">
+    </tbody>
+    
+    <tfoot>
+      <tr>
+        <td>🦄</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <h3>Total Monthly Salary: <span id="total-monthly-salary"></span></h3>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+
+import {useState} from 'react'; // object destructoring
+// get a specific property out of an object
+// same as: import React from 'react';
+// creating const useState = React.useState;
+import './App.css';
+
+function App() {
+    // const [myStateVariable, setMyStateVariable] = usedState('initial value');
+    // usedState is a function, that you give the initial value to 
+    // usedState takes intial value and returns back and array []
+
+    // let whatUseStateReturns = useState(false);
+    // let myThing = whatUsedStateReturns[0];
+    // changeMyThing = whatUsedStateReturns[1]; // how to change state variable
+
+    // name is state variable, setName is the function, usedState is functionality by array and takes in the inital value
+    const [miles, setMiles] = useState('0');
+    const [longest,setLongest] = useState('13');
+    // create state variable 
+
+    const [milesInput, setMilesInput] = useState('');
+
+
+    const handleSubmit = () => {
+      /*
+      let longest = {longest}
+       let recent = {miles}
+       */
+        console.log('Submitted');
+        setMiles(milesInput);
+        setMilesInput('');
+        console.log({longest})
+        console.log({miles})
+
+        
+
+
+
+/*
+        if (recent > longest)
+        console.log('yes');
+        return {longest};
+        */
+
+        
+
+        
+        
+
+
+       
+    }
+
+    const handleLongestRun = () => {
+
+
+    }// end of function
+
+  
+
+
+ 
+    return (
+        <div className="App">
+          <h1 style={runStyle}>React Track Runner</h1>
+            <input value={milesInput}
+            onChange={(event) => setMilesInput(event.target.value)} placeholder="Miles Ran" />
+            <button onClick={handleSubmit}>Add New Run</button>
+            <p>Recent Run: {miles}</p>
+            <p>Longest Run: {longest}</p>
+            <p>Time: </p>
+            <p>Average Miles per Hour: </p>
+        
+        </div>
+    );
+}
+
+// 
+const runStyle = {
+    color: '#fff',
+    fontSize: '50px',
+    letterSpacing: '1px',
+    textShadow: '3px 3px 20px blue',
+    backgroundColor: 'orange',
+    //backgroundImage: 'linearGradient(white,red,blue,green)',
+}
+
+export default App;
+
+/*
+1. must live in state to appear in DOM
+2. state: change?
+3. react hook: called used state
+4. when u change a state variable it will update
+5. onChange is a browser event, 
+6. every change on DOM is a re-render
+
+// onClick={() => setCount(count + 1)}
+*/
+
+
+
+// WTF

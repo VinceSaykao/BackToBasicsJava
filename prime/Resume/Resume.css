@@ -2,7 +2,7 @@
 
 body {
   display: flex;
-  background-color: black;
+  background-color: rgb(0, 9, 49);
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -13,6 +13,15 @@ body {
   position: relative;
   width: 300px;
   height: 300px;
+  background-color: aliceblue;
+  border-radius: 200px;
+  border: 5px solid rgb(255, 255, 255);
+  box-shadow: 0px 0px 3px rgb(101, 212, 240),
+  0px 0px 3px rgb(101, 212, 240),
+  0px 0px 3px rgb(101, 212, 240),
+  0px 0px 100px rgb(101, 212, 240)
+
+  ;
 }
 .loader span {
   position: absolute;
@@ -38,14 +47,14 @@ body {
     30px 30px 0 #00efff, 30px 30px 20px #00efff, 30px -30px 0 #00efff,
     30px -30px 20px #00efff, -30px 30px 0 #00efff, -30px 30px 20px #00efff;
 
-  animation: animate 5s linear infinite;
+  animation: animate 1s linear infinite;
   animation-delay: calc(-0.5s * var(--i));
   transform-origin: 20px;
-  transition: 2s;
+  transition: 5s;
 }
 
 .loader:hover span::before {
-    transform-origin: 250px;
+    transform-origin: 50px;
 
     box-shadow: 0 0 20px #00efff, -200px -200px 0 #00efff, -200px -200px 20px #00efff,
     200px 200px 0 #00efff, 200px 200px 20px #00efff, 200px -30px 0 #00efff,

@@ -1,0 +1,174 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1509023464722-18d996393ca8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFyayUyMGphcGFufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    background-attachment: fixed;
+    background-position: center;
+    text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+  
+   a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: gold;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .title {
+    color:white;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'MedievalSharp', cursive;
+    text-align: center;
+    border-radius: 100px;
+    
+  }
+  
+  h1 {
+     color:white;
+    font-size:50px;
+    background-color: #44444444;
+    font-weight: 1000px;
+    padding: 150px;
+    position: relative;
+    bottom: 35px;
+    line-height: 200px;
+  
+  }
+  
+  h3 {
+    color:white;
+    font-size:50px;
+    background-color: #44444444;
+    font-weight: 1000px;
+    padding: 100px;
+    position: relative;
+    bottom: 51px;
+    line-height: 100px;
+    
+  
+  }
+  
+  h2 {
+     color:white;
+    font-size:50px;
+    background-color: #44444444;
+    font-weight: 1000px;
+    padding: 205px;
+    position: relative;
+    bottom: 51px;
+    line-height: 100px;
+   
+    
+  }
+  
+  p {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+  }
+  
+  
+  .header {
+    height:40px;
+    text-align: center;
+    color: white;
+    padding: 1px;
+    font-size:30px;
+    background-image: url("https://1ycbx02rgnsa1i87hd1i7v1r-wpengine.netdna-ssl.com/wp-content/uploads/2014/08/black-forest-wallpaper-10-1024x640.jpg");
+    border-radius:100px;
+    
+  }
+  
+  .container div {
+    box-sizing: border-box;
+     
+  }
+  
+  .left-col {
+    color:white;
+    width: 33%;
+    height:500px;
+    float: left;
+    background-image: url("https://static.seattletimes.com/wp-content/uploads/2019/09/web-t-work-coffee-shop_GettyImages-520581198-780x501.jpg");
+    border-radius:100px;
+    padding: 1px;
+    background-position: -800px;
+    text-align:center;
+  }
+  
+  .left-col:hover{
+   background-position: -1000px;
+  
+  
+  }
+  
+  .center-col {
+    color:white;
+    width: 33%;
+    height:500px;
+    float: left;
+    background-image: url("https://www.mckinsey.com/~/media/mckinsey/mckinsey%20quarterly/the%20five%20fifty/soft-skills-1536x1536.png");
+    border-radius:100px;
+    padding: 1px;
+    background-position: -300px;
+    text-align:center;
+    
+  }
+  
+  .center-col:hover{
+    background-position: -680px;
+  }
+  
+  .right-col {
+    color:white;
+    width: 33%;
+    height:500px;
+    float: left;
+    background-image: url("https://cdn.tutsplus.com/cdn-cgi/image/width=600/vector/uploads/2013/10/whycantyoudraw_2-2_stickmen.png");
+    border-radius:100px;
+    padding: 1px;
+    background-position: 70px;
+    text-align:center;
+  
+  }
+  
+  .right-col:hover{
+    background-position:-100px;
+    
+  }
+  .link{
+    padding: 50px;
+    border-radius:100px;
+    background-image: url("https://sothebys-com.brightspotcdn.com/dims4/default/aeb0f39/2147483647/strip/true/crop/1904x1315+0+0/resize/684x472!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fdotcom%2Fb9%2F5f%2Fd4b55ee64cadb1a43165305c2990%2F068hk0732-9fcmh.jpg");
+    float:left;
+    margin-left: 700px;
+  
+  }
+  
+  .link:hover{
+   background-position: -700px;
+    
+  } 
+  
