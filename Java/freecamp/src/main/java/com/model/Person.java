@@ -12,8 +12,6 @@ public class Person {
     public UUID getId() {
         return id;
     }
-    
-
     public String getName() {
         return name;
     }
